@@ -1,0 +1,17 @@
+{
+	"scripts": {
+		"prettier": "prettier --write .",
+		"prepare": "husky install"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@commitlint/cli": "^17.6.7",
+		"@commitlint/config-conventional": "^17.6.7",
+		"axios-miniprogram": "^2.5.0",
+		"husky": "^8.0.0",
+		"path": "^0.12.7",
+		"prettier": "^3.0.1",
+		"sass": "^1.64.2",
+		"sass-loader": "^10.4.1"
+	}
+}

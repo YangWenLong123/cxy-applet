@@ -1,0 +1,24 @@
+# 排除所有.开头的隐藏文件
+.*
+
+# 不排除.gitignore和App.class:
+!.gitignore
+!.husky
+!.vscode
+!.hbuilderx
+!.editorconfig
+!.gitignore
+!.prettierignore
+!.prettierrc.js
+
+# 忽略指定文件夹下文件
+node_modules/
+dist/
+# uni_modules/
+
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
